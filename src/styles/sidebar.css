@@ -1,0 +1,28 @@
+.sidebar {
+    height: 100%;
+    width: 130px;
+    position: absolute;
+    left: 0;
+    top: 10;
+    padding-top: 40px;
+    background-color: lightblue;
+    justify-content: space-between;
+  }
+  
+  .sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+  }
+
+  .sidebar div:hover {
+    background-color: gray;
+    cursor: pointer;
+    opacity: .5;
+  }
+  
+  .body-text {
+    margin-left: 150px;
+    font-size: 18px;
+  }
+  
